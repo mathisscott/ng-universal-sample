@@ -21,6 +21,11 @@ import { PLATFORM_ID, APP_ID, Inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
 import '@clr/core/alert';
+import '@clr/core/button';
+import '@clr/core/icon';
+import { ClarityIcons, userIcon } from '@clr/core/icon-shapes';
+
+ClarityIcons.addIcons(userIcon);
 
 @NgModule({
   imports: [
